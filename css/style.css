@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header, footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* home page */
+.hero {
+  padding: 4rem 2rem;
+  background: #e0ebf5;
+}
+
+.view-service-btn {
+  padding: 0.5rem 1rem;
+  background-color: #003366;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* services page */
+.service {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.service h3 {
+  color: #003366;
+  margin-bottom: 3px;
+}
+
+.service img {
+  /* width: 280px; */
+  min-width: 85%;
+  max-width: 90%;
+  height: auto;
+}
+
+.service-descr {
+  font-size: 0.95rem;
+  margin: 0 0 30px;
+  padding: 0 2%;
+  text-align: justify;
+  /* width: 80%; */
+}
+
+.descr-heading {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+}
+
+/* contact page */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#button-send {
+  background-color: #003366;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
